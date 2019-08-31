@@ -55,4 +55,3 @@ class validateSAID {
 		return $sum%10 ? false : $type;
 	}
 }
-?>
