@@ -1,0 +1,24 @@
+{
+    "name": "top7up/id",
+    "description": "This class can be used to validate Saudi resident identifier numbers. It takes a resident identifier number and calculates a checksum to verify whether it may be a valid number. http://aziz.oraij.com",
+    "keywords": [
+      "Saudi",
+      "Saudi identity",
+      "Saudi identity number"
+    ],
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "AbdulAziz A AlOraij",
+            "email": "",
+            "homepage": "http://aziz.oraij.com",
+            "role": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-4": { "top7up\\": "src" }
+    }
+}
