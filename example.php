@@ -23,7 +23,10 @@
 // Purpose:
 // ----------------------------------------------------------------------
 // Bismillah..
-include "validateSAID.class.php";
+include "src/validateSAID.php";
+
+use top7up\validateSAID;
+
 echo "<html><title>Validate Saudi ID التحقق من رقم الهوية السعودية</title><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /></head><body>";
 if($_POST){
 	$validate = new validateSAID('en');
