@@ -44,6 +44,8 @@ class validateSAID {
 		$type = substr ( $id, 0, 1 );
 		if($type != 2 && $type != 1 ) return false;
 
+		// Initialize $sum
+		$sum = 0;
 		for( $i = 0 ; $i<10 ; $i++ ) {
 			//echo "  $id <b>"."</b> -";
 			if ( $i % 2 == 0){
